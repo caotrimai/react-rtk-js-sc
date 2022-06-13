@@ -9,8 +9,6 @@ html {
 }
 
 body {
-  min-width: 1024px;
-  max-width: 1134px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;

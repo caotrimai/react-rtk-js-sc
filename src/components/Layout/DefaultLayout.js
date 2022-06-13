@@ -1,9 +1,15 @@
-function DefaultLayout({ children }) {
+import {Layout} from 'antd'
+
+const {Header, Footer, Content} = Layout
+
+function DefaultLayout ({children}) {
   return (
-    <div className='DefaultLayout'>
-      {children}
-    </div>
-  );
+    <Layout className='DefaultLayout'>
+      <Header>Header</Header>
+      <Content>{children}</Content>
+      <Footer>Footer</Footer>
+    </Layout>
+  )
 }
 
-export default DefaultLayout;
+export default DefaultLayout
